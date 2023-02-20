@@ -1,3 +1,4 @@
+/// <reference types="react" />
 type ImageViewerProps = {
     filePath: string;
     isThumbnail?: boolean;

@@ -1,2 +1,2 @@
-export { FileViewer as default } from './FileViewer';
+export * from './FileViewer';
 //# sourceMappingURL=index.d.ts.map

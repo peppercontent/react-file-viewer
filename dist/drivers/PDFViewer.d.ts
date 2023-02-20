@@ -1,3 +1,4 @@
+/// <reference types="react" />
 type PDFViewerProps = {
     filePath: string;
     isThumbnail?: boolean;

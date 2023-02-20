@@ -1,3 +1,4 @@
+/// <reference types="react" />
 export type FileViewerProps = {
     fileType: string;
     filePath: string;
