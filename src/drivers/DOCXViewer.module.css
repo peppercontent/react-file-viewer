@@ -1,0 +1,333 @@
+.wrapper {
+  padding: 30px;
+  width: 700px;
+  background: white;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.wrapper.thumbnail {
+  transform: scale(0.3);
+  transform-origin: left top;
+}
+
+.loading {
+  text-align: center;
+}
+
+.thumbnail .loading {
+  transform: scale(3);
+}
+
+.wrapper html,
+.wrapper bodyaddress,
+.wrapper blockquote,
+.wrapper body,
+.wrapper dd,
+.wrapper div,
+.wrapper dl,
+.wrapper dt,
+.wrapper fieldset,
+.wrapper form,
+.wrapper frame,
+.wrapper frameset,
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper h4,
+.wrapper h5,
+.wrapper h6,
+.wrapper noframes,
+.wrapper ol,
+.wrapper p,
+.wrapper ul,
+.wrapper center,
+.wrapper dir,
+.wrapper hr,
+.wrapper menu,
+.wrapper pre {
+  display: block;
+  unicode-bidi: embed;
+}
+
+.wrapper li {
+  display: list-item;
+  list-style-type: disc;
+}
+
+.wrapper head {
+  display: none;
+}
+
+.wrapper table {
+  display: table;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.wrapper tr {
+  display: table-row;
+}
+
+.wrapper thead {
+  display: table-header-group;
+}
+
+.wrapper tbody {
+  display: table-row-group;
+}
+
+.wrapper tfoot {
+  display: table-footer-group;
+}
+
+.wrapper col {
+  display: table-column;
+}
+
+.wrapper colgroup {
+  display: table-column-group;
+}
+
+.wrapper th {
+  display: table-cell;
+}
+
+.wrapper td {
+  display: table-cell;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0.2em 0.5em;
+}
+
+.wrapper caption {
+  display: table-caption;
+}
+
+.wrapper th {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.wrapper caption {
+  text-align: center;
+}
+
+.wrapper body {
+  margin: 8px;
+}
+
+.wrapper h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.wrapper h2 {
+  font-size: 1.5em;
+  margin: 0.75em 0;
+}
+
+.wrapper h3 {
+  font-size: 1.17em;
+  margin: 0.83em 0;
+}
+
+.wrapper h4,
+.wrapper p,
+.wrapper blockquote,
+.wrapper ul,
+.wrapper fieldset,
+.wrapper form,
+.wrapper ol,
+.wrapper dl,
+.wrapper dir,
+.wrapper menu {
+  margin: 1.12em 0;
+}
+
+.wrapper h5 {
+  font-size: 0.83em;
+  margin: 1.5em 0;
+}
+
+.wrapper h6 {
+  font-size: 0.75em;
+  margin: 1.67em 0;
+}
+
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper h4,
+.wrapper h5,
+.wrapper h6,
+.wrapper b,
+.wrapper strong {
+  font-weight: bolder;
+}
+
+.wrapper blockquote {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.wrapper i,
+.wrapper cite,
+.wrapper em,
+.wrapper var,
+.wrapper address {
+  font-style: italic;
+}
+
+.wrapper pre,
+.wrapper tt,
+.wrapper code,
+.wrapper kbd,
+.wrapper samp {
+  font-family: monospace;
+}
+
+.wrapper pre {
+  white-space: pre;
+}
+
+.wrapper button,
+.wrapper textarea,
+.wrapper input,
+.wrapper select {
+  display: inline-block;
+}
+
+.wrapper big {
+  font-size: 1.17em;
+}
+
+.wrapper small,
+.wrapper sub,
+.wrapper sup {
+  font-size: 0.83em;
+}
+
+.wrapper sub {
+  vertical-align: sub;
+}
+
+.wrapper sup {
+  vertical-align: super;
+}
+
+.wrapper table {
+  border-spacing: 2px;
+}
+
+.wrapper thead,
+.wrapper tbody,
+.wrapper tfoot {
+  vertical-align: middle;
+}
+
+.wrapper td,
+.wrapper th,
+.wrapper tr {
+  vertical-align: inherit;
+}
+
+.wrapper s,
+.wrapper strike,
+.wrapper del {
+  text-decoration: line-through;
+}
+
+.wrapper hr {
+  border: 1px inset;
+}
+
+.wrapper ol,
+.wrapper ul,
+.wrapper dir,
+.wrapper menu,
+.wrapper dd {
+  margin-left: 40px;
+}
+
+.wrapper ol {
+  list-style-type: decimal;
+}
+
+.wrapper ol ul,
+.wrapper ol ul,
+.wrapper ul ol,
+.wrapper ul ol,
+.wrapper ul ul,
+.wrapper ul ul,
+.wrapper ol ol,
+.wrapper ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wrapper u,
+.wrapper ins {
+  text-decoration: underline;
+}
+
+.wrapper br:before {
+  content: "\A";
+  white-space: pre-line;
+}
+
+.wrapper center {
+  text-align: center;
+}
+
+.wrapper :link,
+.wrapper :visited {
+  text-decoration: underline;
+}
+
+.wrapper :focus {
+  outline: thin dotted invert;
+}
+
+.wrapper BDO[DIR="ltr"] {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+.wrapper BDO[DIR="rtl"] {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.wrapper *[DIR="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+.wrapper *[DIR="rtl"] {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+@media print {
+  .wrapper h1 {
+    page-break-before: always;
+  }
+
+  .wrapper h1,
+  .wrapper h2,
+  .wrapper h3,
+  .wrapper h4,
+  .wrapper h5,
+  .wrapper h6 {
+    page-break-after: avoid;
+  }
+
+  .wrapper ul,
+  .wrapper ol,
+  .wrapper dl {
+    page-break-before: avoid;
+  }
+}

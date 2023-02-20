@@ -1,0 +1,36 @@
+{
+  "name": "@pepper/file-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "vite --port 3004",
+    "build": "concurrently \"yarn workspace @pepper/utils build && yarn workspace @pepper/ui-core build && yarn workspace @pepper/ui build && yarn workspace @pepper/chat build && tsc && vite build\"",
+    "build:self": "tsc && vite build",
+    "pre-commit": "lint-staged",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mammoth": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-pdf": "^6.2.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn prettier --write"
+    ],
+    "src/**/*.+(js|jsx|md|yml|yaml|ts|tsx)": [
+      "yarn prettier --write",
+      "yarn eslint --fix --fix-type problem --cache --ignore-path .eslintignore"
+    ]
+  }
+}
