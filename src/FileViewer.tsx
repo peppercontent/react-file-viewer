@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { ImageViewer } from './drivers/ImageViewer'
 import { PDFViewer } from './drivers/PDFViewer'
 import { DOCXViewer } from './drivers/DOCXViewer'

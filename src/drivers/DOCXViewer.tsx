@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import mammoth from 'mammoth/mammoth.browser'
 
 import s from './DOCXViewer.module.css'

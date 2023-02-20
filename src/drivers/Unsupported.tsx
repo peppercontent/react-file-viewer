@@ -1,3 +1,5 @@
+import React from 'react'
+
 import s from './Unsupported.module.css'
 
 export const UnsupportedViewer = () => (
