@@ -10,5 +10,8 @@
     "rootDir": "src",
     "sourceMap": true
   },
-  "include": ["src/**/*", "../utils/src/types/*", "vite-env.d.ts"],
+  "include": [
+    "src/**/*",
+    "vite-env.d.ts"
+  ],
 }

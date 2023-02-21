@@ -1,1 +1,1 @@
-{"version":3,"file":"DOCXViewer.d.ts","sourceRoot":"","sources":["../../src/drivers/DOCXViewer.tsx"],"names":[],"mappings":";AAKA,KAAK,eAAe,GAAG;IACrB,QAAQ,EAAE,MAAM,CAAA;IAChB,WAAW,CAAC,EAAE,OAAO,CAAA;CACtB,CAAA;AAED,eAAO,MAAM,UAAU,8BAA+B,eAAe,gBAsCpE,CAAA"}
+{"version":3,"file":"DOCXViewer.d.ts","sourceRoot":"","sources":["../../src/drivers/DOCXViewer.tsx"],"names":[],"mappings":"AAKA,KAAK,eAAe,GAAG;IACrB,QAAQ,EAAE,MAAM,CAAA;IAChB,WAAW,CAAC,EAAE,OAAO,CAAA;CACtB,CAAA;AAED,eAAO,MAAM,UAAU,8BAA+B,eAAe,gBAsCpE,CAAA"}

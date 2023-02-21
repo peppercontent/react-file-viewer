@@ -1,4 +1,3 @@
-/// <reference types="react" />
 type DOCXViewerProps = {
     filePath: string;
     isThumbnail?: boolean;

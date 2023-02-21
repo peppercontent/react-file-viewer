@@ -10,10 +10,19 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'file-viewer',
-      formats: ['es'],
-      fileName: () => 'index.js'
+      formats: ['es', 'umd'],
+      fileName: (format) => `index.${format}.js`,
     },
     emptyOutDir: false,
-    rollupOptions: { }
-  }
+    rollupOptions: {
+      external: ['react', 'react-dom'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
+    }
+  },
+
 })
