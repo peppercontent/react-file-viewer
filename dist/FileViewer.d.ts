@@ -4,5 +4,6 @@ export type FileViewerProps = {
     filePath: string;
     isThumbnail?: boolean;
 };
-export declare const FileViewer: ({ fileType, filePath, isThumbnail }: FileViewerProps) => JSX.Element;
+declare const FileViewer: ({ fileType, filePath, isThumbnail }: FileViewerProps) => JSX.Element;
+export default FileViewer;
 //# sourceMappingURL=FileViewer.d.ts.map

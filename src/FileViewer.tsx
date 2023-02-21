@@ -11,8 +11,7 @@ export type FileViewerProps = {
   filePath: string
   isThumbnail?: boolean
 }
-
-export const FileViewer = ({
+const FileViewer = ({
   fileType,
   filePath,
   isThumbnail
@@ -44,3 +43,5 @@ export const FileViewer = ({
     </div>
   )
 }
+
+export default FileViewer
