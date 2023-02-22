@@ -44,14 +44,5 @@
   "peerDependencies": {
     "react": ">=17.0",
     "react-dom": ">=17.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "yarn prettier --write"
-    ],
-    "src/**/*.+(js|jsx|md|yml|yaml|ts|tsx)": [
-      "yarn prettier --write",
-      "yarn eslint --fix --fix-type problem --cache --ignore-path .eslintignore"
-    ]
   }
 }
