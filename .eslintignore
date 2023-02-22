@@ -1,0 +1,12 @@
+**/node_modules/*
+**/dist/*
+**/lib/*
+**/build/*
+**/coverage/*
+**/docs/*
+**/tests/*
+**/scripts/*
+**/*.stories.tsx
+**/*.test.ts
+**/*.test.tsx
+!.eslintrc.js
